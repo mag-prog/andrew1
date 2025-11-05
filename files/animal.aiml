@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: animal.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category><pattern>andrew, va faire tes devoirs</pattern>
+<template>Non, je ne veux pas, je veux jouer</template>
+</category>
+
+<category><pattern>tu dois travailler</pattern>
+<template>c'est une blague</template>
+</category>
+
+<category><pattern>parle autrement</pattern>
+<template>je ne t'aime pas</template>
+</category>
+<category><pattern>arrête ton chantage, fais tes devoirs</pattern>
+<template>Non je ne veux pas je ne veux pas</template>
+</category>
+<category><pattern>tu m'énerves</pattern>
+<template>je veux jouer</template>
+</category>
+<category><pattern>_tais toi</pattern>
+<template>t'es méchante</template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
